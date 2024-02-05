@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import EnseignantService from '../services/EnseignantService';
+import EnseignantService from '../service/EnseignantService';
 
 interface Enseignant {
     NO_ENSEIGNANT: number;
